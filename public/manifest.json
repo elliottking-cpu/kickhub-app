@@ -1,0 +1,45 @@
+{
+  "name": "KickHub - Grassroots Football Management",
+  "short_name": "KickHub",
+  "description": "Comprehensive platform for managing grassroots football teams, players, and matches",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["sports", "productivity", "utilities"],
+  "lang": "en-GB",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Match Day",
+      "short_name": "Match",
+      "description": "Quick access to live match management",
+      "url": "/coach/matches",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Team Management",
+      "short_name": "Team",
+      "description": "Manage your team and players",
+      "url": "/coach/team/players",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
